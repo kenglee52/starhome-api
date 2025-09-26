@@ -1,7 +1,7 @@
 {
-  "name": "nodejs",
+  "name": "starhome-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starhome API with Express + TypeScript",
   "main": "dist/server.js",
   "type": "commonjs",
   "scripts": {
