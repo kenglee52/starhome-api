@@ -32,5 +32,6 @@ app.use("/api/employees", employeeRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/incomes", incomeRoutes);
 app.use("/api/expense", expenseRoutes);
+app.get("/", (req, res) => res.send("API is running 🚀"));
 
 export default app;
