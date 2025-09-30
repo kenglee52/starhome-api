@@ -1,7 +1,7 @@
 import app from "./app";
 import { connectDB } from "./models/index";
 
-const PORT = Number(process.env.PORT) || 10000;
+const PORT = Number(process.env.PORT);
 
 connectDB().then(() => {
     app.listen(PORT, '0.0.0.0', () => {
